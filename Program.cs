@@ -27,6 +27,11 @@ Poblacion = ordenado.Values.ToArray();
 for (var i = 0; i < Poblacion.Length; i++)
     Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
 
-Console.WriteLine($"Población General:{Poblacion.Sum():N0}");
+
+
+
+
+//saumar todas las poblaciones con SUM de LINQ
+Console.WriteLine($"Población General:{dicionario.values.Sum():N0}");
 Console.WriteLine($"Departamento con mayor Población:{maxDepkey}");
 Console.WriteLine($"Departamento con menor Población:{minDepkey}");
